@@ -5,5 +5,4 @@ RUN apt update \
  && git clone https://github.com/ArchiveTeam/terroroftinytown-client-grab grab \
  && sh -c 'test -x /grab/warrior-install.sh && /grab/warrior-install.sh || true'
 WORKDIR /grab
-COPY files /
 ENTRYPOINT ["run-pipeline3", "--address", "127.0.0.1", "--port", "8001", "pipeline.py", "YOUR NAME"]
