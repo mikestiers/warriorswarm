@@ -1,0 +1,1419 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "containerGroups_warrior1_name": {
+            "defaultValue": "warrior01",
+            "type": "String"
+        },
+        "containerGroups_warrior2_name": {
+            "defaultValue": "warrior02",
+            "type": "String"
+        },
+        "containerGroups_warrior3_name": {
+            "defaultValue": "warrior03",
+            "type": "String"
+        },
+        "containerGroups_warrior4_name": {
+            "defaultValue": "warrior04",
+            "type": "String"
+        },
+        "containerGroups_warrior5_name": {
+            "defaultValue": "warrior05",
+            "type": "String"
+        },
+        "containerGroups_warrior6_name": {
+            "defaultValue": "warrior06",
+            "type": "String"
+        },
+        "containerGroups_warrior7_name": {
+            "defaultValue": "warrior07",
+            "type": "String"
+        },
+        "containerGroups_warrior8_name": {
+            "defaultValue": "warrior08",
+            "type": "String"
+        },
+        "containerGroups_warrior9_name": {
+            "defaultValue": "warrior09",
+            "type": "String"
+        },
+        "containerGroups_warrior10_name": {
+            "defaultValue": "warrior10",
+            "type": "String"
+        },
+        "containerGroups_warrior11_name": {
+            "defaultValue": "warrior11",
+            "type": "String"
+        },
+        "containerGroups_warrior12_name": {
+            "defaultValue": "warrior12",
+            "type": "String"
+        },
+        "containerGroups_warrior13_name": {
+            "defaultValue": "warrior13",
+            "type": "String"
+        },
+        "containerGroups_warrior14_name": {
+            "defaultValue": "warrior14",
+            "type": "String"
+        },
+        "containerGroups_warrior15_name": {
+            "defaultValue": "warrior15",
+            "type": "String"
+        },
+        "containerGroups_warrior16_name": {
+            "defaultValue": "warrior16",
+            "type": "String"
+        },
+        "containerGroups_warrior17_name": {
+            "defaultValue": "warrior17",
+            "type": "String"
+        },
+        "containerGroups_warrior18_name": {
+            "defaultValue": "warrior18",
+            "type": "String"
+        },
+        "containerGroups_warrior19_name": {
+            "defaultValue": "warrior19",
+            "type": "String"
+        },
+        "containerGroups_warrior20_name": {
+            "defaultValue": "warrior20",
+            "type": "String"
+        },
+        "containerGroups_warrior21_name": {
+            "defaultValue": "warrior21",
+            "type": "String"
+        },
+        "containerGroups_warrior22_name": {
+            "defaultValue": "warrior22",
+            "type": "String"
+        },
+        "containerGroups_warrior23_name": {
+            "defaultValue": "warrior23",
+            "type": "String"
+        },
+        "containerGroups_warrior24_name": {
+            "defaultValue": "warrior24",
+            "type": "String"
+        },
+        "containerGroups_warrior25_name": {
+            "defaultValue": "warrior25",
+            "type": "String"
+        },
+        "containerGroups_warrior26_name": {
+            "defaultValue": "warrior26",
+            "type": "String"
+        },
+        "containerGroups_warrior27_name": {
+            "defaultValue": "warrior27",
+            "type": "String"
+        },
+        "containerGroups_warrior28_name": {
+            "defaultValue": "warrior28",
+            "type": "String"
+        },
+        "containerGroups_warrior29_name": {
+            "defaultValue": "warrior29",
+            "type": "String"
+        },
+        "containerGroups_warrior30_name": {
+            "defaultValue": "warrior30",
+            "type": "String"
+        }
+    },
+    "variables": {},
+    "resources": [
+        {
+            "comments": "Generalized from resource: '/subscriptions/16659fae-264f-46c2-af87-39326468858d/resourceGroups/warrior/providers/Microsoft.ContainerInstance/containerGroups/warrior1'.",
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "name": "[parameters('containerGroups_warrior1_name')]",
+            "apiVersion": "2018-04-01",
+            "location": "eastus",
+            "tags": {},
+            "scale": null,
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_warrior1_name')]",
+                        "properties": {
+                            "image": "archiveteam/warrior-dockerfile",
+                            "ports": [],
+                            "environmentVariables": [
+                                {
+                                    "name": "DOWNLOADER",
+                                    "value": "YOUR NAME"
+                                },
+                                {
+                                    "name": "SELECTED_PROJECT",
+                                    "value": "urlteam2"
+                                },
+                                {
+                                    "name": "CONCURRENT_ITEMS",
+                                    "value": "6"
+                                }
+                            ],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 1.0,
+                                    "cpu": 1
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            },
+            "dependsOn": []
+        },
+        {
+            "comments": "Generalized from resource: '/subscriptions/16659fae-264f-46c2-af87-39326468858d/resourceGroups/warrior/providers/Microsoft.ContainerInstance/containerGroups/warrior10'.",
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "name": "[parameters('containerGroups_warrior10_name')]",
+            "apiVersion": "2018-04-01",
+            "location": "eastus",
+            "tags": {},
+            "scale": null,
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_warrior10_name')]",
+                        "properties": {
+                            "image": "archiveteam/warrior-dockerfile",
+                            "ports": [],
+                            "environmentVariables": [
+                                {
+                                    "name": "DOWNLOADER",
+                                    "value": "YOUR NAME"
+                                },
+                                {
+                                    "name": "SELECTED_PROJECT",
+                                    "value": "urlteam2"
+                                },
+                                {
+                                    "name": "CONCURRENT_ITEMS",
+                                    "value": "6"
+                                }
+                            ],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 1.0,
+                                    "cpu": 1
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            },
+            "dependsOn": []
+        },
+        {
+            "comments": "Generalized from resource: '/subscriptions/16659fae-264f-46c2-af87-39326468858d/resourceGroups/warrior/providers/Microsoft.ContainerInstance/containerGroups/warrior11'.",
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "name": "[parameters('containerGroups_warrior11_name')]",
+            "apiVersion": "2018-04-01",
+            "location": "eastus",
+            "tags": {},
+            "scale": null,
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_warrior11_name')]",
+                        "properties": {
+                            "image": "archiveteam/warrior-dockerfile",
+                            "ports": [],
+                            "environmentVariables": [
+                                {
+                                    "name": "DOWNLOADER",
+                                    "value": "YOUR NAME"
+                                },
+                                {
+                                    "name": "SELECTED_PROJECT",
+                                    "value": "urlteam2"
+                                },
+                                {
+                                    "name": "CONCURRENT_ITEMS",
+                                    "value": "6"
+                                }
+                            ],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 1.0,
+                                    "cpu": 1
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            },
+            "dependsOn": []
+        },
+        {
+            "comments": "Generalized from resource: '/subscriptions/16659fae-264f-46c2-af87-39326468858d/resourceGroups/warrior/providers/Microsoft.ContainerInstance/containerGroups/warrior12'.",
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "name": "[parameters('containerGroups_warrior12_name')]",
+            "apiVersion": "2018-04-01",
+            "location": "eastus",
+            "tags": {},
+            "scale": null,
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_warrior12_name')]",
+                        "properties": {
+                            "image": "archiveteam/warrior-dockerfile",
+                            "ports": [],
+                            "environmentVariables": [
+                                {
+                                    "name": "DOWNLOADER",
+                                    "value": "YOUR NAME"
+                                },
+                                {
+                                    "name": "SELECTED_PROJECT",
+                                    "value": "urlteam2"
+                                },
+                                {
+                                    "name": "CONCURRENT_ITEMS",
+                                    "value": "6"
+                                }
+                            ],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 1.0,
+                                    "cpu": 1
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            },
+            "dependsOn": []
+        },
+        {
+            "comments": "Generalized from resource: '/subscriptions/16659fae-264f-46c2-af87-39326468858d/resourceGroups/warrior/providers/Microsoft.ContainerInstance/containerGroups/warrior13'.",
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "name": "[parameters('containerGroups_warrior13_name')]",
+            "apiVersion": "2018-04-01",
+            "location": "eastus",
+            "tags": {},
+            "scale": null,
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_warrior13_name')]",
+                        "properties": {
+                            "image": "archiveteam/warrior-dockerfile",
+                            "ports": [],
+                            "environmentVariables": [
+                                {
+                                    "name": "DOWNLOADER",
+                                    "value": "YOUR NAME"
+                                },
+                                {
+                                    "name": "SELECTED_PROJECT",
+                                    "value": "urlteam2"
+                                },
+                                {
+                                    "name": "CONCURRENT_ITEMS",
+                                    "value": "6"
+                                }
+                            ],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 1.0,
+                                    "cpu": 1
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            },
+            "dependsOn": []
+        },
+        {
+            "comments": "Generalized from resource: '/subscriptions/16659fae-264f-46c2-af87-39326468858d/resourceGroups/warrior/providers/Microsoft.ContainerInstance/containerGroups/warrior14'.",
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "name": "[parameters('containerGroups_warrior14_name')]",
+            "apiVersion": "2018-04-01",
+            "location": "eastus",
+            "tags": {},
+            "scale": null,
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_warrior14_name')]",
+                        "properties": {
+                            "image": "archiveteam/warrior-dockerfile",
+                            "ports": [],
+                            "environmentVariables": [
+                                {
+                                    "name": "DOWNLOADER",
+                                    "value": "YOUR NAME"
+                                },
+                                {
+                                    "name": "SELECTED_PROJECT",
+                                    "value": "urlteam2"
+                                },
+                                {
+                                    "name": "CONCURRENT_ITEMS",
+                                    "value": "6"
+                                }
+                            ],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 1.0,
+                                    "cpu": 1
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            },
+            "dependsOn": []
+        },
+        {
+            "comments": "Generalized from resource: '/subscriptions/16659fae-264f-46c2-af87-39326468858d/resourceGroups/warrior/providers/Microsoft.ContainerInstance/containerGroups/warrior15'.",
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "name": "[parameters('containerGroups_warrior15_name')]",
+            "apiVersion": "2018-04-01",
+            "location": "eastus",
+            "tags": {},
+            "scale": null,
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_warrior15_name')]",
+                        "properties": {
+                            "image": "archiveteam/warrior-dockerfile",
+                            "ports": [],
+                            "environmentVariables": [
+                                {
+                                    "name": "DOWNLOADER",
+                                    "value": "YOUR NAME"
+                                },
+                                {
+                                    "name": "SELECTED_PROJECT",
+                                    "value": "urlteam2"
+                                },
+                                {
+                                    "name": "CONCURRENT_ITEMS",
+                                    "value": "6"
+                                }
+                            ],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 1.0,
+                                    "cpu": 1
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            },
+            "dependsOn": []
+        },
+        {
+            "comments": "Generalized from resource: '/subscriptions/16659fae-264f-46c2-af87-39326468858d/resourceGroups/warrior/providers/Microsoft.ContainerInstance/containerGroups/warrior16'.",
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "name": "[parameters('containerGroups_warrior16_name')]",
+            "apiVersion": "2018-04-01",
+            "location": "eastus",
+            "tags": {},
+            "scale": null,
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_warrior16_name')]",
+                        "properties": {
+                            "image": "archiveteam/warrior-dockerfile",
+                            "ports": [],
+                            "environmentVariables": [
+                                {
+                                    "name": "DOWNLOADER",
+                                    "value": "YOUR NAME"
+                                },
+                                {
+                                    "name": "SELECTED_PROJECT",
+                                    "value": "urlteam2"
+                                },
+                                {
+                                    "name": "CONCURRENT_ITEMS",
+                                    "value": "6"
+                                }
+                            ],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 1.0,
+                                    "cpu": 1
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            },
+            "dependsOn": []
+        },
+        {
+            "comments": "Generalized from resource: '/subscriptions/16659fae-264f-46c2-af87-39326468858d/resourceGroups/warrior/providers/Microsoft.ContainerInstance/containerGroups/warrior17'.",
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "name": "[parameters('containerGroups_warrior17_name')]",
+            "apiVersion": "2018-04-01",
+            "location": "eastus",
+            "tags": {},
+            "scale": null,
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_warrior17_name')]",
+                        "properties": {
+                            "image": "archiveteam/warrior-dockerfile",
+                            "ports": [],
+                            "environmentVariables": [
+                                {
+                                    "name": "DOWNLOADER",
+                                    "value": "YOUR NAME"
+                                },
+                                {
+                                    "name": "SELECTED_PROJECT",
+                                    "value": "urlteam2"
+                                },
+                                {
+                                    "name": "CONCURRENT_ITEMS",
+                                    "value": "6"
+                                }
+                            ],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 1.0,
+                                    "cpu": 1
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            },
+            "dependsOn": []
+        },
+        {
+            "comments": "Generalized from resource: '/subscriptions/16659fae-264f-46c2-af87-39326468858d/resourceGroups/warrior/providers/Microsoft.ContainerInstance/containerGroups/warrior18'.",
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "name": "[parameters('containerGroups_warrior18_name')]",
+            "apiVersion": "2018-04-01",
+            "location": "eastus",
+            "tags": {},
+            "scale": null,
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_warrior18_name')]",
+                        "properties": {
+                            "image": "archiveteam/warrior-dockerfile",
+                            "ports": [],
+                            "environmentVariables": [
+                                {
+                                    "name": "DOWNLOADER",
+                                    "value": "YOUR NAME"
+                                },
+                                {
+                                    "name": "SELECTED_PROJECT",
+                                    "value": "urlteam2"
+                                },
+                                {
+                                    "name": "CONCURRENT_ITEMS",
+                                    "value": "6"
+                                }
+                            ],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 1.0,
+                                    "cpu": 1
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            },
+            "dependsOn": []
+        },
+        {
+            "comments": "Generalized from resource: '/subscriptions/16659fae-264f-46c2-af87-39326468858d/resourceGroups/warrior/providers/Microsoft.ContainerInstance/containerGroups/warrior19'.",
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "name": "[parameters('containerGroups_warrior19_name')]",
+            "apiVersion": "2018-04-01",
+            "location": "eastus",
+            "tags": {},
+            "scale": null,
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_warrior19_name')]",
+                        "properties": {
+                            "image": "archiveteam/warrior-dockerfile",
+                            "ports": [],
+                            "environmentVariables": [
+                                {
+                                    "name": "DOWNLOADER",
+                                    "value": "YOUR NAME"
+                                },
+                                {
+                                    "name": "SELECTED_PROJECT",
+                                    "value": "urlteam2"
+                                },
+                                {
+                                    "name": "CONCURRENT_ITEMS",
+                                    "value": "6"
+                                }
+                            ],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 1.0,
+                                    "cpu": 1
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            },
+            "dependsOn": []
+        },
+        {
+            "comments": "Generalized from resource: '/subscriptions/16659fae-264f-46c2-af87-39326468858d/resourceGroups/warrior/providers/Microsoft.ContainerInstance/containerGroups/warrior2'.",
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "name": "[parameters('containerGroups_warrior2_name')]",
+            "apiVersion": "2018-04-01",
+            "location": "eastus",
+            "tags": {},
+            "scale": null,
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_warrior2_name')]",
+                        "properties": {
+                            "image": "archiveteam/warrior-dockerfile",
+                            "ports": [],
+                            "environmentVariables": [
+                                {
+                                    "name": "DOWNLOADER",
+                                    "value": "YOUR NAME"
+                                },
+                                {
+                                    "name": "SELECTED_PROJECT",
+                                    "value": "urlteam2"
+                                },
+                                {
+                                    "name": "CONCURRENT_ITEMS",
+                                    "value": "6"
+                                }
+                            ],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 1.0,
+                                    "cpu": 1
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            },
+            "dependsOn": []
+        },
+        {
+            "comments": "Generalized from resource: '/subscriptions/16659fae-264f-46c2-af87-39326468858d/resourceGroups/warrior/providers/Microsoft.ContainerInstance/containerGroups/warrior20'.",
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "name": "[parameters('containerGroups_warrior20_name')]",
+            "apiVersion": "2018-04-01",
+            "location": "eastus",
+            "tags": {},
+            "scale": null,
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_warrior20_name')]",
+                        "properties": {
+                            "image": "archiveteam/warrior-dockerfile",
+                            "ports": [],
+                            "environmentVariables": [
+                                {
+                                    "name": "DOWNLOADER",
+                                    "value": "YOUR NAME"
+                                },
+                                {
+                                    "name": "SELECTED_PROJECT",
+                                    "value": "urlteam2"
+                                },
+                                {
+                                    "name": "CONCURRENT_ITEMS",
+                                    "value": "6"
+                                }
+                            ],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 1.0,
+                                    "cpu": 1
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            },
+            "dependsOn": []
+        },
+        {
+            "comments": "Generalized from resource: '/subscriptions/16659fae-264f-46c2-af87-39326468858d/resourceGroups/warrior/providers/Microsoft.ContainerInstance/containerGroups/warrior21'.",
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "name": "[parameters('containerGroups_warrior21_name')]",
+            "apiVersion": "2018-04-01",
+            "location": "eastus",
+            "tags": {},
+            "scale": null,
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_warrior21_name')]",
+                        "properties": {
+                            "image": "archiveteam/warrior-dockerfile",
+                            "ports": [],
+                            "environmentVariables": [
+                                {
+                                    "name": "DOWNLOADER",
+                                    "value": "YOUR NAME"
+                                },
+                                {
+                                    "name": "SELECTED_PROJECT",
+                                    "value": "urlteam2"
+                                },
+                                {
+                                    "name": "CONCURRENT_ITEMS",
+                                    "value": "6"
+                                }
+                            ],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 1.0,
+                                    "cpu": 1
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            },
+            "dependsOn": []
+        },
+        {
+            "comments": "Generalized from resource: '/subscriptions/16659fae-264f-46c2-af87-39326468858d/resourceGroups/warrior/providers/Microsoft.ContainerInstance/containerGroups/warrior22'.",
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "name": "[parameters('containerGroups_warrior22_name')]",
+            "apiVersion": "2018-04-01",
+            "location": "eastus",
+            "tags": {},
+            "scale": null,
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_warrior22_name')]",
+                        "properties": {
+                            "image": "archiveteam/warrior-dockerfile",
+                            "ports": [],
+                            "environmentVariables": [
+                                {
+                                    "name": "DOWNLOADER",
+                                    "value": "YOUR NAME"
+                                },
+                                {
+                                    "name": "SELECTED_PROJECT",
+                                    "value": "urlteam2"
+                                },
+                                {
+                                    "name": "CONCURRENT_ITEMS",
+                                    "value": "6"
+                                }
+                            ],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 1.0,
+                                    "cpu": 1
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            },
+            "dependsOn": []
+        },
+        {
+            "comments": "Generalized from resource: '/subscriptions/16659fae-264f-46c2-af87-39326468858d/resourceGroups/warrior/providers/Microsoft.ContainerInstance/containerGroups/warrior23'.",
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "name": "[parameters('containerGroups_warrior23_name')]",
+            "apiVersion": "2018-04-01",
+            "location": "eastus",
+            "tags": {},
+            "scale": null,
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_warrior23_name')]",
+                        "properties": {
+                            "image": "archiveteam/warrior-dockerfile",
+                            "ports": [],
+                            "environmentVariables": [
+                                {
+                                    "name": "DOWNLOADER",
+                                    "value": "YOUR NAME"
+                                },
+                                {
+                                    "name": "SELECTED_PROJECT",
+                                    "value": "urlteam2"
+                                },
+                                {
+                                    "name": "CONCURRENT_ITEMS",
+                                    "value": "6"
+                                }
+                            ],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 1.0,
+                                    "cpu": 1
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            },
+            "dependsOn": []
+        },
+        {
+            "comments": "Generalized from resource: '/subscriptions/16659fae-264f-46c2-af87-39326468858d/resourceGroups/warrior/providers/Microsoft.ContainerInstance/containerGroups/warrior24'.",
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "name": "[parameters('containerGroups_warrior24_name')]",
+            "apiVersion": "2018-04-01",
+            "location": "eastus",
+            "tags": {},
+            "scale": null,
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_warrior24_name')]",
+                        "properties": {
+                            "image": "archiveteam/warrior-dockerfile",
+                            "ports": [],
+                            "environmentVariables": [
+                                {
+                                    "name": "DOWNLOADER",
+                                    "value": "YOUR NAME"
+                                },
+                                {
+                                    "name": "SELECTED_PROJECT",
+                                    "value": "urlteam2"
+                                },
+                                {
+                                    "name": "CONCURRENT_ITEMS",
+                                    "value": "6"
+                                }
+                            ],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 1.0,
+                                    "cpu": 1
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            },
+            "dependsOn": []
+        },
+        {
+            "comments": "Generalized from resource: '/subscriptions/16659fae-264f-46c2-af87-39326468858d/resourceGroups/warrior/providers/Microsoft.ContainerInstance/containerGroups/warrior25'.",
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "name": "[parameters('containerGroups_warrior25_name')]",
+            "apiVersion": "2018-04-01",
+            "location": "eastus",
+            "tags": {},
+            "scale": null,
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_warrior25_name')]",
+                        "properties": {
+                            "image": "archiveteam/warrior-dockerfile",
+                            "ports": [],
+                            "environmentVariables": [
+                                {
+                                    "name": "DOWNLOADER",
+                                    "value": "YOUR NAME"
+                                },
+                                {
+                                    "name": "SELECTED_PROJECT",
+                                    "value": "urlteam2"
+                                },
+                                {
+                                    "name": "CONCURRENT_ITEMS",
+                                    "value": "6"
+                                }
+                            ],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 1.0,
+                                    "cpu": 1
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            },
+            "dependsOn": []
+        },
+        {
+            "comments": "Generalized from resource: '/subscriptions/16659fae-264f-46c2-af87-39326468858d/resourceGroups/warrior/providers/Microsoft.ContainerInstance/containerGroups/warrior26'.",
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "name": "[parameters('containerGroups_warrior26_name')]",
+            "apiVersion": "2018-04-01",
+            "location": "eastus",
+            "tags": {},
+            "scale": null,
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_warrior26_name')]",
+                        "properties": {
+                            "image": "archiveteam/warrior-dockerfile",
+                            "ports": [],
+                            "environmentVariables": [
+                                {
+                                    "name": "DOWNLOADER",
+                                    "value": "YOUR NAME"
+                                },
+                                {
+                                    "name": "SELECTED_PROJECT",
+                                    "value": "urlteam2"
+                                },
+                                {
+                                    "name": "CONCURRENT_ITEMS",
+                                    "value": "6"
+                                }
+                            ],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 1.0,
+                                    "cpu": 1
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            },
+            "dependsOn": []
+        },
+        {
+            "comments": "Generalized from resource: '/subscriptions/16659fae-264f-46c2-af87-39326468858d/resourceGroups/warrior/providers/Microsoft.ContainerInstance/containerGroups/warrior27'.",
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "name": "[parameters('containerGroups_warrior27_name')]",
+            "apiVersion": "2018-04-01",
+            "location": "eastus",
+            "tags": {},
+            "scale": null,
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_warrior27_name')]",
+                        "properties": {
+                            "image": "archiveteam/warrior-dockerfile",
+                            "ports": [],
+                            "environmentVariables": [
+                                {
+                                    "name": "DOWNLOADER",
+                                    "value": "YOUR NAME"
+                                },
+                                {
+                                    "name": "SELECTED_PROJECT",
+                                    "value": "urlteam2"
+                                },
+                                {
+                                    "name": "CONCURRENT_ITEMS",
+                                    "value": "6"
+                                }
+                            ],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 1.0,
+                                    "cpu": 1
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            },
+            "dependsOn": []
+        },
+        {
+            "comments": "Generalized from resource: '/subscriptions/16659fae-264f-46c2-af87-39326468858d/resourceGroups/warrior/providers/Microsoft.ContainerInstance/containerGroups/warrior28'.",
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "name": "[parameters('containerGroups_warrior28_name')]",
+            "apiVersion": "2018-04-01",
+            "location": "eastus",
+            "tags": {},
+            "scale": null,
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_warrior28_name')]",
+                        "properties": {
+                            "image": "archiveteam/warrior-dockerfile",
+                            "ports": [],
+                            "environmentVariables": [
+                                {
+                                    "name": "DOWNLOADER",
+                                    "value": "YOUR NAME"
+                                },
+                                {
+                                    "name": "SELECTED_PROJECT",
+                                    "value": "urlteam2"
+                                },
+                                {
+                                    "name": "CONCURRENT_ITEMS",
+                                    "value": "6"
+                                }
+                            ],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 1.0,
+                                    "cpu": 1
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            },
+            "dependsOn": []
+        },
+        {
+            "comments": "Generalized from resource: '/subscriptions/16659fae-264f-46c2-af87-39326468858d/resourceGroups/warrior/providers/Microsoft.ContainerInstance/containerGroups/warrior29'.",
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "name": "[parameters('containerGroups_warrior29_name')]",
+            "apiVersion": "2018-04-01",
+            "location": "eastus",
+            "tags": {},
+            "scale": null,
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_warrior29_name')]",
+                        "properties": {
+                            "image": "archiveteam/warrior-dockerfile",
+                            "ports": [],
+                            "environmentVariables": [
+                                {
+                                    "name": "DOWNLOADER",
+                                    "value": "YOUR NAME"
+                                },
+                                {
+                                    "name": "SELECTED_PROJECT",
+                                    "value": "urlteam2"
+                                },
+                                {
+                                    "name": "CONCURRENT_ITEMS",
+                                    "value": "6"
+                                }
+                            ],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 1.0,
+                                    "cpu": 1
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            },
+            "dependsOn": []
+        },
+        {
+            "comments": "Generalized from resource: '/subscriptions/16659fae-264f-46c2-af87-39326468858d/resourceGroups/warrior/providers/Microsoft.ContainerInstance/containerGroups/warrior3'.",
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "name": "[parameters('containerGroups_warrior3_name')]",
+            "apiVersion": "2018-04-01",
+            "location": "eastus",
+            "tags": {},
+            "scale": null,
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_warrior3_name')]",
+                        "properties": {
+                            "image": "archiveteam/warrior-dockerfile",
+                            "ports": [],
+                            "environmentVariables": [
+                                {
+                                    "name": "DOWNLOADER",
+                                    "value": "YOUR NAME"
+                                },
+                                {
+                                    "name": "SELECTED_PROJECT",
+                                    "value": "urlteam2"
+                                },
+                                {
+                                    "name": "CONCURRENT_ITEMS",
+                                    "value": "6"
+                                }
+                            ],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 1.0,
+                                    "cpu": 1
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            },
+            "dependsOn": []
+        },
+        {
+            "comments": "Generalized from resource: '/subscriptions/16659fae-264f-46c2-af87-39326468858d/resourceGroups/warrior/providers/Microsoft.ContainerInstance/containerGroups/warrior30'.",
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "name": "[parameters('containerGroups_warrior30_name')]",
+            "apiVersion": "2018-04-01",
+            "location": "eastus",
+            "tags": {},
+            "scale": null,
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_warrior30_name')]",
+                        "properties": {
+                            "image": "archiveteam/warrior-dockerfile",
+                            "ports": [],
+                            "environmentVariables": [
+                                {
+                                    "name": "DOWNLOADER",
+                                    "value": "YOUR NAME"
+                                },
+                                {
+                                    "name": "SELECTED_PROJECT",
+                                    "value": "urlteam2"
+                                },
+                                {
+                                    "name": "CONCURRENT_ITEMS",
+                                    "value": "6"
+                                }
+                            ],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 1.0,
+                                    "cpu": 1
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            },
+            "dependsOn": []
+        },
+        {
+            "comments": "Generalized from resource: '/subscriptions/16659fae-264f-46c2-af87-39326468858d/resourceGroups/warrior/providers/Microsoft.ContainerInstance/containerGroups/warrior4'.",
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "name": "[parameters('containerGroups_warrior4_name')]",
+            "apiVersion": "2018-04-01",
+            "location": "eastus",
+            "tags": {},
+            "scale": null,
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_warrior4_name')]",
+                        "properties": {
+                            "image": "archiveteam/warrior-dockerfile",
+                            "ports": [],
+                            "environmentVariables": [
+                                {
+                                    "name": "DOWNLOADER",
+                                    "value": "YOUR NAME"
+                                },
+                                {
+                                    "name": "SELECTED_PROJECT",
+                                    "value": "urlteam2"
+                                },
+                                {
+                                    "name": "CONCURRENT_ITEMS",
+                                    "value": "6"
+                                }
+                            ],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 1.0,
+                                    "cpu": 1
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            },
+            "dependsOn": []
+        },
+        {
+            "comments": "Generalized from resource: '/subscriptions/16659fae-264f-46c2-af87-39326468858d/resourceGroups/warrior/providers/Microsoft.ContainerInstance/containerGroups/warrior5'.",
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "name": "[parameters('containerGroups_warrior5_name')]",
+            "apiVersion": "2018-04-01",
+            "location": "eastus",
+            "tags": {},
+            "scale": null,
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_warrior5_name')]",
+                        "properties": {
+                            "image": "archiveteam/warrior-dockerfile",
+                            "ports": [],
+                            "environmentVariables": [
+                                {
+                                    "name": "DOWNLOADER",
+                                    "value": "YOUR NAME"
+                                },
+                                {
+                                    "name": "SELECTED_PROJECT",
+                                    "value": "urlteam2"
+                                },
+                                {
+                                    "name": "CONCURRENT_ITEMS",
+                                    "value": "6"
+                                }
+                            ],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 1.0,
+                                    "cpu": 1
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            },
+            "dependsOn": []
+        },
+        {
+            "comments": "Generalized from resource: '/subscriptions/16659fae-264f-46c2-af87-39326468858d/resourceGroups/warrior/providers/Microsoft.ContainerInstance/containerGroups/warrior6'.",
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "name": "[parameters('containerGroups_warrior6_name')]",
+            "apiVersion": "2018-04-01",
+            "location": "eastus",
+            "tags": {},
+            "scale": null,
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_warrior6_name')]",
+                        "properties": {
+                            "image": "archiveteam/warrior-dockerfile",
+                            "ports": [],
+                            "environmentVariables": [
+                                {
+                                    "name": "DOWNLOADER",
+                                    "value": "YOUR NAME"
+                                },
+                                {
+                                    "name": "SELECTED_PROJECT",
+                                    "value": "urlteam2"
+                                },
+                                {
+                                    "name": "CONCURRENT_ITEMS",
+                                    "value": "6"
+                                }
+                            ],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 1.0,
+                                    "cpu": 1
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            },
+            "dependsOn": []
+        },
+        {
+            "comments": "Generalized from resource: '/subscriptions/16659fae-264f-46c2-af87-39326468858d/resourceGroups/warrior/providers/Microsoft.ContainerInstance/containerGroups/warrior7'.",
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "name": "[parameters('containerGroups_warrior7_name')]",
+            "apiVersion": "2018-04-01",
+            "location": "eastus",
+            "tags": {},
+            "scale": null,
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_warrior7_name')]",
+                        "properties": {
+                            "image": "archiveteam/warrior-dockerfile",
+                            "ports": [],
+                            "environmentVariables": [
+                                {
+                                    "name": "DOWNLOADER",
+                                    "value": "YOUR NAME"
+                                },
+                                {
+                                    "name": "SELECTED_PROJECT",
+                                    "value": "urlteam2"
+                                },
+                                {
+                                    "name": "CONCURRENT_ITEMS",
+                                    "value": "6"
+                                }
+                            ],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 1.0,
+                                    "cpu": 1
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            },
+            "dependsOn": []
+        },
+        {
+            "comments": "Generalized from resource: '/subscriptions/16659fae-264f-46c2-af87-39326468858d/resourceGroups/warrior/providers/Microsoft.ContainerInstance/containerGroups/warrior8'.",
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "name": "[parameters('containerGroups_warrior8_name')]",
+            "apiVersion": "2018-04-01",
+            "location": "eastus",
+            "tags": {},
+            "scale": null,
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_warrior8_name')]",
+                        "properties": {
+                            "image": "archiveteam/warrior-dockerfile",
+                            "ports": [],
+                            "environmentVariables": [
+                                {
+                                    "name": "DOWNLOADER",
+                                    "value": "YOUR NAME"
+                                },
+                                {
+                                    "name": "SELECTED_PROJECT",
+                                    "value": "urlteam2"
+                                },
+                                {
+                                    "name": "CONCURRENT_ITEMS",
+                                    "value": "6"
+                                }
+                            ],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 1.0,
+                                    "cpu": 1
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            },
+            "dependsOn": []
+        },
+        {
+            "comments": "Generalized from resource: '/subscriptions/16659fae-264f-46c2-af87-39326468858d/resourceGroups/warrior/providers/Microsoft.ContainerInstance/containerGroups/warrior9'.",
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "name": "[parameters('containerGroups_warrior9_name')]",
+            "apiVersion": "2018-04-01",
+            "location": "eastus",
+            "tags": {},
+            "scale": null,
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_warrior9_name')]",
+                        "properties": {
+                            "image": "archiveteam/warrior-dockerfile",
+                            "ports": [],
+                            "environmentVariables": [
+                                {
+                                    "name": "DOWNLOADER",
+                                    "value": "YOUR NAME"
+                                },
+                                {
+                                    "name": "SELECTED_PROJECT",
+                                    "value": "urlteam2"
+                                },
+                                {
+                                    "name": "CONCURRENT_ITEMS",
+                                    "value": "6"
+                                }
+                            ],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 1.0,
+                                    "cpu": 1
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            },
+            "dependsOn": []
+        }
+    ]
+}
