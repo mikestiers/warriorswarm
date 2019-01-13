@@ -2,95 +2,11 @@
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "containerGroups_warrior1_name": {
-            "value": null
+        "containerGroupPrefix": {
+            "value": "warrior"
         },
-        "containerGroups_warrior2_name": {
-            "value": null
-        },
-        "containerGroups_warrior3_name": {
-            "value": null
-        },
-        "containerGroups_warrior4_name": {
-            "value": null
-        },
-        "containerGroups_warrior5_name": {
-            "value": null
-        },
-        "containerGroups_warrior6_name": {
-            "value": null
-        },
-        "containerGroups_warrior7_name": {
-            "value": null
-        },
-        "containerGroups_warrior8_name": {
-            "value": null
-        },
-        "containerGroups_warrior9_name": {
-            "value": null
-        },
-        "containerGroups_warrior10_name": {
-            "value": null
-        },
-        "containerGroups_warrior11_name": {
-            "value": null
-        },
-        "containerGroups_warrior12_name": {
-            "value": null
-        },
-        "containerGroups_warrior13_name": {
-            "value": null
-        },
-        "containerGroups_warrior14_name": {
-            "value": null
-        },
-        "containerGroups_warrior15_name": {
-            "value": null
-        },
-        "containerGroups_warrior16_name": {
-            "value": null
-        },
-        "containerGroups_warrior17_name": {
-            "value": null
-        },
-        "containerGroups_warrior18_name": {
-            "value": null
-        },
-        "containerGroups_warrior19_name": {
-            "value": null
-        },
-        "containerGroups_warrior20_name": {
-            "value": null
-        },
-        "containerGroups_warrior21_name": {
-            "value": null
-        },
-        "containerGroups_warrior22_name": {
-            "value": null
-        },
-        "containerGroups_warrior23_name": {
-            "value": null
-        },
-        "containerGroups_warrior24_name": {
-            "value": null
-        },
-        "containerGroups_warrior25_name": {
-            "value": null
-        },
-        "containerGroups_warrior26_name": {
-            "value": null
-        },
-        "containerGroups_warrior27_name": {
-            "value": null
-        },
-        "containerGroups_warrior28_name": {
-            "value": null
-        },
-        "containerGroups_warrior29_name": {
-            "value": null
-        },
-        "containerGroups_warrior30_name": {
-            "value": null
+        "containerGroupCount": {
+            "value": 30
         }
     }
 }
