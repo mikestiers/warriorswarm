@@ -11,6 +11,14 @@
         },
         "downloaderName": {
             "type": "string"
+        },
+        "selected_Project": {
+            "type": "string",
+            "defaultValue": "urlteam2"
+        },
+        "concurrent_Items": {
+            "type": "string",
+            "defaultValue": "6"
         }
     },
     "variables": {},
@@ -39,11 +47,11 @@
                                     "value": "[parameters('downloaderName')]"                               },
                                 {
                                     "name": "SELECTED_PROJECT",
-                                    "value": "urlteam2"
+                                    "value": "[parameters('selected_Project')]"
                                 },
                                 {
                                     "name": "CONCURRENT_ITEMS",
-                                    "value": "6"
+                                    "value": "[parameters('concurrent_Items')]"
                                 }
                             ],
                             "resources": {
